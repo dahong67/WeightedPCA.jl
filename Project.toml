@@ -1,0 +1,7 @@
+name = "WeightedPCA"
+uuid = "ee299941-4bd7-491e-86f9-95d1f98baef4"
+authors = ["David Hong <dahong67@wharton.upenn.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
