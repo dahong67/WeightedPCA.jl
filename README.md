@@ -7,12 +7,12 @@
 [![Build Status](https://github.com/dahong67/WeightedPCA.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/dahong67/WeightedPCA.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 [![Coverage](https://codecov.io/gh/dahong67/WeightedPCA.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/dahong67/WeightedPCA.jl)
 
-> :wave: *This package provides research code and work is ongoing.
+> 👋 *This package provides research code and work is ongoing.
 > If you are interested in using it in your own research,
 > **I'd love to hear from you and collaborate!**
 > Feel free to write: dahong67@wharton.upenn.edu*
 
-Please cite the following papers for this technique:
+Please cite the following paper for this technique:
 
 > David Hong, Fan Yang, Jeffrey A. Fessler, Laura Balzano.
 > "Optimally Weighted PCA for High-Dimensional Heteroscedastic Data", 2022.
