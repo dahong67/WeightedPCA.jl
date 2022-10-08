@@ -32,6 +32,11 @@ In BibTeX form:
 ```@index
 ```
 
-```@autodocs
-Modules = [WeightedPCA]
+```@docs
+WeightedPCA
+wpca
+ComputedWeights
+UniformWeights
+InverseVarianceWeights
+OptimalWeights
 ```
