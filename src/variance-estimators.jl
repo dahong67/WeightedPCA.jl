@@ -10,7 +10,7 @@ Should implement `estimatev`.
 abstract type AbstractNoiseVarEstimator end
 
 """
-    estimatev(Y,method::AbstractNoiseVarEstimator) -> Vector{<:Real}
+    estimatev(Y, method::AbstractNoiseVarEstimator) -> Vector{<:Real}
 
 Estimate the vector of noise variances from data `Y`
 using the estimator `method`.
@@ -35,7 +35,7 @@ Should implement `estimateλ`.
 abstract type AbstractSignalVarEstimator end
 
 """
-    estimateλ(Y,v,method::AbstractSignalVarEstimator)
+    estimateλ(Y, v, method::AbstractSignalVarEstimator) -> Vector{<:Real}
 
 Estimate the vector of signal variances from data `Y`
 using the estimator `method`.
@@ -43,7 +43,7 @@ using the estimator `method`.
 function estimateλ end
 
 """
-    estimateλ(Y,i,v,method::AbstractSignalVarEstimator)
+    estimateλ(Y, i, v, method::AbstractSignalVarEstimator) -> Real
 
 Estimate the `i`th signal variance from data `Y`
 using the estimator `method`.

@@ -8,7 +8,7 @@ export UniformWeights, InverseVarianceWeights, OptimalWeights
 
 # Main function
 """
-    wpca(Y,i,weights=UniformWeights())
+    wpca(Y, i, weights=UniformWeights())
 
 Compute `i`th principal component of data `Y` via weighted PCA using `weights`,
 i.e., output is the `i`th eigenvector of the weighted sample covariance
