@@ -17,6 +17,8 @@ Please cite the following paper for this technique:
 > David Hong, Fan Yang, Jeffrey A. Fessler, Laura Balzano.
 > "Optimally Weighted PCA for High-Dimensional Heteroscedastic Data", 2022.
 > https://arxiv.org/abs/1810.12862
+> 
+To appear in SIAM J. on Math. of Data Science (SIMODS).
 
 In BibTeX form:
 ```bibtex
