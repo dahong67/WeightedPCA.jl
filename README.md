@@ -16,14 +16,15 @@ Please cite the following paper for this technique:
 
 > David Hong, Fan Yang, Jeffrey A. Fessler, Laura Balzano.
 > "Optimally Weighted PCA for High-Dimensional Heteroscedastic Data", 2022.
+> To appear in SIAM Journal on Mathematics of Data Science (SIMODS).
 > https://arxiv.org/abs/1810.12862
 
 In BibTeX form:
 ```bibtex
-@Misc{hyfb2022owp,
-   title  = "Optimally Weighted PCA for High-Dimensional Heteroscedastic Data", 
-   author = "David Hong and Fan Yang and Jeffrey A. Fessler and Laura Balzano",
-   year   = 2022,
-   url    = "https://arxiv.org/abs/1810.12862",
+@Article{hyfb2022owp,
+  title =        "Optimally Weighted PCA for High-Dimensional Heteroscedastic Data",
+  author =       "David Hong and Fan Yang and Jeffrey A. Fessler and Laura Balzano",
+  journal =      "To appear in {SIAM} Journal on Mathematics of Data Science",
+  year =         "2022",
 }
 ```
