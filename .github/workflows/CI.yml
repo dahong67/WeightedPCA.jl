@@ -25,6 +25,15 @@ jobs:
           - ubuntu-latest
           - macOS-latest
           - windows-latest
+        exclude:
+          # Julia 1.6 doesn't support Apple Silicon (ARM); exclude from macOS-latest
+          # See: https://discourse.julialang.org/t/how-to-fix-github-actions-ci-failures-with-julia-1-6-or-1-7-on-macos-latest-and-macos-14/117019
+          - version: 'min'
+            os: macOS-latest
+        include:
+          # Run Julia min on macOS-13 (Intel) instead
+          - version: 'min'
+            os: macos-13
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v3
