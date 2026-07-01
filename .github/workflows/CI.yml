@@ -27,14 +27,10 @@ jobs:
           - windows-latest
         exclude:
           # macOS-latest uses Apple Silicon (ARM); older Julia versions (e.g. 1.6) don't support ARM.
-          # Exclude 'min' from macOS-latest and run it on macos-13 (Intel) instead.
+          # Skip 'min' on macOS entirely since macos-13 (Intel) is no longer available.
           # See: https://discourse.julialang.org/t/how-to-fix-github-actions-ci-failures-with-julia-1-6-or-1-7-on-macos-latest-and-macos-14/117019
           - version: 'min'
             os: macOS-latest
-        include:
-          # Run Julia min on macOS-13 (Intel) instead of macOS-latest (ARM)
-          - version: 'min'
-            os: macos-13
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v3
